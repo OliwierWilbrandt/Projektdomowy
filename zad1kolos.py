@@ -62,16 +62,36 @@
 # rysuj_piramidę(wysokość)
 
 #Zad4
+#Wybieranie losowej liczby całkowitej z zakresu:
+# import random
+#
+# losowa_liczba = random.randint(1, 100)  # Losowa liczba całkowita z zakresu od 1 do 100
+# print(losowa_liczba)
+#
+# #Losowy wybór elementu z listy:
+# lista = ['jabłko', 'banan', 'pomarańcza', 'gruszka']
+# wybrany_element = random.choice(lista)
+# print(wybrany_element)
+#
+# #tworzenie losowej permutacji listy:
+# lista = [1, 2, 3, 4, 5]
+# random.shuffle(lista)
+# print(lista)
+#
+# #Generowanie losowej liczby zmiennoprzecinkowej z zakresu:
+# losowa_liczba = random.uniform(0, 1)  # Losowa liczba zmiennoprzecinkowa z zakresu od 0 do 1
+# print(losowa_liczba)
+
 
 
 #Zad5
-import random
-def suma_wierszy_macierzy(n):
-    macierz = [[random.randint(1, 10) for _ in range(n)] for _ in range(n)]
-    suma_wierszy = [sum(wiersz) for wiersz in macierz]
-
-    return suma_wierszy
-
-n = int(input("Podaj wymiar macierzy (n): "))
-suma_wierszy = suma_wierszy_macierzy(n)
-print("Suma każdego wiersza macierzy:", suma_wierszy)
+# import random
+# def suma_wierszy_macierzy(n):
+#     macierz = [[random.randint(1, 10) for _ in range(n)] for _ in range(n)]
+#     suma_wierszy = [sum(wiersz) for wiersz in macierz]
+#
+#     return suma_wierszy
+#
+# n = int(input("Podaj wymiar macierzy (n): "))
+# suma_wierszy = suma_wierszy_macierzy(n)
+# print("Suma każdego wiersza macierzy:", suma_wierszy)
